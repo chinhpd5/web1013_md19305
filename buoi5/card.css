@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    /* Xét chiều dài và chiều rộng */
+    width: 300px;
+    height: 450px;
+    
+    /* màu nền */
+    background-color: #f0f0f0;
+
+    /* căn trên dưới 30px và căn giữa */
+    margin: 30px auto;
+
+    /* viền */
+    border: 1px solid #333;
+    /* bo tròn viền */
+    border-radius: 10px;
+
+    /* padding: 20px; */
+}
+
+.card-img{
+    width: 260px;
+    height: 300px;
+    /* margin: 20px; */
+    margin: 20px auto;
+}
+
+.card-img .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-name{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-dob{
+    /* căn giữa chữ */
+    text-align: center;
+    /* màu chữ */
+    color: #333;
+    /* in nghiêng */
+    font-style: italic;
+    /* kích thước */
+    font-size: 16px;
+
+    margin: 10px;
+}
+
+.card-khoa{
+    text-align: center;
+}

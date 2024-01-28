@@ -1,0 +1,48 @@
+/* table ,th ,td {
+    border: 1px solid #333;
+} */
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+    width: 200px;
+    height: 40px;
+}
+
+/* css cho thẻ td đầu tiên trong tr */
+tr td:first-child{
+    width: 50px;
+    text-align: center;
+}
+
+/* css cho thẻ td cuối cùng trong tr */
+tr td:last-child{
+    width: 100px;
+    text-align: end;
+}
+/* css cho thẻ td thứ 3 trong tr */
+tr td:nth-child(3){
+    width: 50px;
+    text-align: center;
+}
+/* 
+    chẵn :even ,2n
+    lẻ : odd, 2n + 1
+    3n, 3n+1, 3n+2
+*/
+
+/* css các tr vị trí lẻ */
+tbody tr:nth-child(2n+1){
+    background-color: #267ffa;
+}
+
+/* css các tr vị trí chẵn */
+tbody tr:nth-child(2n){
+    background-color: #cbe1ff;
+}
+
+tbody tr:last-child{
+    background-color: #ff3232;
+}

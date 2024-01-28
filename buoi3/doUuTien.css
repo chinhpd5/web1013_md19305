@@ -1,0 +1,80 @@
+/* tổng quan */
+/* 
+*{
+    color: red;
+} */
+
+
+/* kế thừa */
+html,body{
+    /* font chữ */
+    font-family: sans-serif;
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+.para{
+    /* kích thước chữ */
+    font-size: 15px;
+    /* in đậm */
+    font-weight: bold;
+    /* in nghiêng */
+    font-style: italic;
+    /* màu nền */
+    background-color: violet;
+
+}
+.box-padding{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    text-align: center;
+    line-height: 100px;
+    padding: 10px;
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;*/
+} 
+
+/* .box-x{
+    background-color: violet;
+    width: 50vw;
+    height: 50vh;
+} */
+
+/* .box-parent{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(189, 25, 189);
+}
+.box-parent .box-child{
+    width: 50%;
+    height: 80%;
+    background-color: #333333;
+} */
+
+/* 
+
+.heading-1{
+    color: red;
+}
+
+#heading.heading-1{
+    color: blue;
+}
+
+h1#heading{
+    color: violet;
+}
+
+.box .heading-2{
+    color: yellow;
+}
+.heading-2{
+    color: aqua;
+} */
+

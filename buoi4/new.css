@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#app{
+    /* chiều dài */
+    width: 60%;
+    /* căn giữa */
+    margin: 0 auto;
+
+    /* height: 500px;
+    background-color: violet; */
+}
+.header{
+    margin: 10px 0;
+}
+.header-category{
+    float: left;
+}
+
+.header-time{
+    float: right;
+    font-size: 10px;
+}
+.heading-title{
+    clear:both;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.img-avatar{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-name{
+    float: left;
+    /* độ cao chữ */
+    line-height: 30px;
+    /* độ đậm chữ */
+    font-weight: 600;
+    /* lệch trái 15px */
+    margin-left: 15px;
+}
+
+.btn-more{
+    float: right;
+    padding: 8px;
+}
+
+.author{
+    padding: 0 0 60px 0;
+    border-bottom: 1px solid #333;
+}
+

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigator{
+    width: 100%;
+    height: 40px;
+    background-color: #edfd59;
+}
+
+.navigator ul {
+    /* đưa các thẻ li lên 1 hàng */
+    display: flex;
+    /* căn giữa theo chiều ngang */
+    justify-content: center;
+}
+
+.navigator ul li {
+    /* căn giữa theo chiều dọc */
+    line-height: 40px;
+    /* xóa dấu chấm của thẻ li */
+    list-style: none;
+    padding: 0 20px;
+
+    position: relative;
+}
+
+.navigator ul li a {
+    /* xóa dấu gạch chân của thẻ a */
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.navigator ul li:hover {
+    /* đổi màu nền khi hover thẻ li */
+    background-color: #e73efa;
+}
+
+.navigator ul li:hover > a {
+    /* đổi màu chữ của thẻ a khi hover thẻ li */
+    color:#fff;
+}
+
+.sub-nav{
+    background-color: #edfd59;
+
+    position: absolute;
+    /* vị trí */
+    left: 0;
+    top: 100%;
+
+    /* ẩn đi */
+    display: none;
+}
+
+.sub-nav ul{
+    /* đẩy phần tử xuống 1 hàng */
+    display: block;
+    /* chiều ngang nhỏ nhất */
+    min-width: 150px;
+}
+
+.navigator ul li:hover .sub-nav {
+    /* hiển thị lại menu con khi di chuột vào li */
+    display: block;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    /* border: 1px solid #333; */
+}
+
+.button{
+    margin: 100px auto;
+}
+/* button */
+
+.btn{
+
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #333;
+    text-align: center;
+    border-radius: 50px;
+
+    min-width: 100px;
+
+    cursor: pointer;
+}
+.btn-success{
+    background-color: #29fb29;
+}
+.btn-warning{
+    background-color: #ffff3e;
+}
+.btn-error{
+    background-color: #fb3333;
+}
+.btn + .btn{
+    margin-left: 20px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    transition: opacity 0.3s linear;
+}
+
+.btn-size-s{
+    padding: 5px 10px;
+    font-size: 10px;
+    min-width: 70px;
+}
+
+
+.btn-size-l{
+    padding: 20px 30px;
+    font-size: 25px;
+    min-width: 180px;
+}

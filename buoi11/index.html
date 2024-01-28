@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        Gộp
+        gộp hàng (row) : rowspan
+        gộp cột (column) :colspan
+     -->
+
+    <table border>
+        <thead>
+            <tr>
+                <th rowspan="2">Stt</th>
+                <th rowspan="2">Họ và tên</th>
+                <th colspan="3">Điểm</th>
+                <!-- <th>Văn</th>
+                <th>Anh</th> -->
+            </tr>
+            <tr>
+                <!-- <th>Stt</th> -->
+                <!-- <th>Họ và tên</th> -->
+                <th>Toán</th>
+                <th>Văn</th>
+                <th>Anh</th>
+            </tr>
+            
+        </thead>
+    </table>
+
+
+
+
+    <table border>
+
+        <thead>
+
+            
+            <th>STT</th>
+            <th>Họ và Tên</th>
+            <th>Tuổi</th>
+            <th>Lương</th>
+            
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Trần Văn A</td>
+                <td>30</td>
+                <td>1.000.000</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Thị B</td>
+                <td>20</td>
+                <td rowspan="2">10.500.000</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Nguyễn Thị B</td>
+                <td>20</td>
+                <!-- <td>10.500.000</td> -->
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Nguyễn Thị B</td>
+                <td>20</td>
+                <td>10.500.000</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Nguyễn Thị B</td>
+                <td>20</td>
+                <td>10.500.000</td>
+            </tr>
+
+            <tr>
+                <!-- <td></td>
+                <td></td> -->
+                <td colspan="3">Tổng</td>
+                <td>100.000.000</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+</body>
+</html>
